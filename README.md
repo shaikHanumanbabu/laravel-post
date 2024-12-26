@@ -14,6 +14,7 @@ Here is the demo project for posts using this repo, we can create, read, update 
 
 
 ```bash
+  composer update
   php artisan migrate (Generate for migration tables)
   php artisan db:seed --class=PostSeeder (Generate for sample data)
 ```
